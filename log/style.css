@@ -1,0 +1,65 @@
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: rgba(203, 194, 207, 0.74);
+    padding: 20px;
+  }
+form {
+    max-width: 300px;
+    margin: 0 auto;
+    border: 1px solid #b3b3b3;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    z-index: 5000;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="tel"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color:#ff6347;
+  }
+  .ee{
+    font-weight: bold;
+  }
+   form p{
+    padding-top: 0.8rem;
+    color: var(--light-color);
+    font-weight: bold;
+}
+
+ form p a{
+    text-decoration: underline;
+    color:#ff6347;
+}
